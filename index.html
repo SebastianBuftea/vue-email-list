@@ -11,7 +11,7 @@
     <div id="app">
 
         <!-- creo la lista contenente le e-mail -->
-        <ul>
+        <ul v-show="arrayMail.length==10" >
             <li v-for="(mail, index) in arrayMail" :key="index" >{{mail}}</li>
         </ul>
 
